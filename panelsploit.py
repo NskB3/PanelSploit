@@ -85,7 +85,7 @@ def find():
 
         if r.status_code == 404:
 
-           print fontstyles.messages.error + adminpage +  " Is Not The Admin Page"
+           print fontstyles.messages.error + " " + adminpage +  " Is Not The Admin Page"
 
 
 
