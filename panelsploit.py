@@ -73,7 +73,7 @@ def find():
 
           r = requests.get(args.target + adminpage)
         except KeyboardInterrupt:
-          print "Exiting program... 
+          print "Exiting program..." 
          
           quit()
         
