@@ -55,7 +55,7 @@ def cli():
 
 adminpages = ["/admin","/sysadmin","/adminpage","/adminlogin","/webadmin",
 
-"/admin_login","/administrator","/admin_login","/admin_area"]
+"/admin_login","/administrator","/admin_login","/admin_area", "/adminsonly", "/admin_only", "/admins_only", "/administrator_login", "/administrator_page", "/web_admin", "/administratorarea" ]
 pages = [] 
 
 
