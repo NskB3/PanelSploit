@@ -72,7 +72,11 @@ def find():
         try:
 
           r = requests.get(args.target + adminpage)
-
+        except KeyboardInterrupt:
+          print "Exiting program... 
+         
+          quit()
+        
         except:
 
           print "Target not found.",example
@@ -81,7 +85,7 @@ def find():
 
         if r.status_code == 404:
 
-           print fontstyles.messages.error + adminpage +  "Is Not valid. Checking next page."
+           print fontstyles.messages.error + adminpage +  "Is Not The Admin Page. Checking next page."
 
 
 
