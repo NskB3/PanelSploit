@@ -94,7 +94,7 @@ def find():
 
            print fontstyles.font.header
 
-           print fontstyles.font.bold +  "Admin page found:",adminpage
+           print fontstyles.font.bold +  "Possible Admin page found:",adminpage
 
            print fontstyles.font.reset_all
 
