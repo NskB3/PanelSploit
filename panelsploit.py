@@ -60,7 +60,7 @@ pages = []
 
 
 def find():
-
+    scanisdone = False
     global args
 
     print "Welcome to admin panel finder."
@@ -99,6 +99,7 @@ def find():
            print fontstyles.font.reset_all
 
            pages.append(adminpage)
+        scanisdone = True
            
            quit() 
 def overall():
